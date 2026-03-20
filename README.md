@@ -16,7 +16,7 @@ E-commerce Web Development & Frontend Engineering
 
 📝 Project Description
 
-A static, highly responsive frontend clone of the Flipkart homepage, designed to accurately replicate the UI/UX and visual hierarchy of a major enterprise e-commerce platform using core web technologies, without relying on external CSS frameworks.
+A static, highly responsive frontend clone of the Flipkart fashion page, designed to accurately replicate the UI/UX and visual hierarchy of a major enterprise e-commerce platform using core web technologies, without relying on external CSS frameworks.
 
 🔭 Project Overview
 
