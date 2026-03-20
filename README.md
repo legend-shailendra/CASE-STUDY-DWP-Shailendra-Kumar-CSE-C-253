@@ -1,15 +1,19 @@
 # CASE-STUDY-DWP-Shailendra-Kumar-CSE-C-253
 
 📌 Project Domain
+
 E-commerce Web Development & Frontend Engineering
 
 📝 Project Description
+
 A static, highly responsive frontend clone of the Flipkart homepage, designed to accurately replicate the UI/UX and visual hierarchy of a major enterprise e-commerce platform using core web technologies, without relying on external CSS frameworks.
 
 🔭 Project Overview
+
 This project involved reverse-engineering the layout structure of Flipkart.com to create a realistic, web-ready prototype. It features a semantic HTML5 foundation, a Flexbox-driven global navigation header, and a complex 22-item product categorization matrix powered by CSS Grid. The development process specifically addressed real-world frontend challenges, implementing robust JavaScript fallbacks to handle server-side image rate-limiting and applying smooth CSS micro-interactions to elevate the user experience.
 
 🎯 Objective
+
 To demonstrate proficiency in modern CSS architecture (Grid and Flexbox) and semantic HTML by accurately reconstructing a complex, industry-standard user interface, while ensuring fault-tolerant media loading and high-quality visual polish.
 
 ✨ Key Features
@@ -33,4 +37,5 @@ CSS3: Utilizing CSS Grid, Flexbox, custom properties, and transition animations.
 Vanilla JavaScript: Utilized inline strictly for robust image error handling and fallback routing.
 
 🏆 Outcome
+
 The successful deployment of a visually accurate, highly stable static prototype of the Flipkart homepage. The project proves the ability to translate complex design structures into clean code, solve practical asset-loading challenges, and deliver a polished, interactive user interface.
