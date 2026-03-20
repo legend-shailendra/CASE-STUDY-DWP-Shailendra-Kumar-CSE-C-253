@@ -1,5 +1,15 @@
 # CASE-STUDY-DWP-Shailendra-Kumar-CSE-C-253
 
+👤 Student Information
+
+Name: Shailendra Kumar
+
+Roll No: C-253
+
+Branch: Computer Science & Engineering (CSE)
+
+Registration No.: 24070050
+
 📌 Project Domain
 
 E-commerce Web Development & Frontend Engineering
