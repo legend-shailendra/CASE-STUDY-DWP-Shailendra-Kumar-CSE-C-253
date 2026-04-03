@@ -10,44 +10,57 @@ Branch: Computer Science & Engineering (CSE)
 
 Registration No.: 24070050
 
-📌 Project Domain
+# X (Twitter) Clone – Explore & Home Feed
 
-E-commerce Web Development & Frontend Engineering
+A fully functional, responsive clone of the **X (formerly Twitter) Explore page** built with **HTML, CSS, and JavaScript**. It replicates the modern X interface with a left sidebar, main feed, right sidebar (trending news & who to follow), interactive posts (like/retweet), and sign-up pages for protected sections.
 
-📝 Project Description
+> 🔄 **Posts refresh on every page load** – like/retweet counts and post order change each time you reload.
 
-A static, highly responsive frontend clone of the Flipkart fashion page, designed to accurately replicate the UI/UX and visual hierarchy of a major enterprise e-commerce platform using core web technologies, without relying on external CSS frameworks.
+---
 
-🔭 Project Overview
+## 📸 Features
 
-This project involved reverse-engineering the layout structure of Flipkart.com to create a realistic, web-ready prototype. It features a semantic HTML5 foundation, a Flexbox-driven global navigation header, and a complex 22-item product categorization matrix powered by CSS Grid. The development process specifically addressed real-world frontend challenges, implementing robust JavaScript fallbacks to handle server-side image rate-limiting and applying smooth CSS micro-interactions to elevate the user experience.
+### ✅ Core UI
+- **Exact X logo** (current 𝕏 logo)
+- **Three-column layout** (left nav, center feed, right sidebar)
+- **Dark theme** with glassmorphism, blur effects, and gradient borders
+- **Fully responsive** – collapses gracefully on smaller screens
 
-🎯 Objective
+### ✅ Navigation (All buttons work)
+- Home, Explore, Notifications, Messages, Grok, Communities, Premium, Profile, Bookmarks
+- Active state highlighting
+- X logo returns to Home
 
-To demonstrate proficiency in modern CSS architecture (Grid and Flexbox) and semantic HTML by accurately reconstructing a complex, industry-standard user interface, while ensuring fault-tolerant media loading and high-quality visual polish.
+### ✅ Main Feed (Home)
+- 12+ dynamic posts with user avatars, names, handles, timestamps
+- Like & retweet buttons (toggle state, count updates)
+- Images/videos placeholders
+- Posts shuffle and like/retweet counts vary on each refresh
 
-✨ Key Features
+### ✅ Explore Feed
+- **Two tabs**: "For You" & "Trending" (each with 12+ posts)
+- **Search bar** – filters posts in real time
+- Like & retweet interactions
 
-Architectural UI Replication: Accurate reconstruction of Flipkart's core layout, including promotional banners and category navigations.
+### ✅ Right Sidebar (Explore only)
+- **Today's News** – clickable news items with thumbnails & metadata
+- **Who to Follow** – follow/unfollow suggestions (5 accounts)
 
-Advanced Grid Systems: Implementation of CSS Grid to manage a highly structured, scalable 22-item product display.
+### ✅ Protected Sections (Sign‑up Pages)
+- Notifications, Messages, Grok, Communities, Premium, Profile, Bookmarks
+- Show a modern **sign-up card** with floating labels and gradient button
+- After sign-up, a welcome message is displayed (demo)
 
-Flexbox Navigation: A responsive header containing a logo, search input, and user action cluster aligned perfectly using Flexbox.
+### ✅ Post Button
+- Two locations: top of center feed + left sidebar (both trigger demo alert)
 
-Fault-Tolerant Media Handling: Built-in inline JavaScript (onerror) fallbacks that automatically replace broken or rate-limited images with clean placeholders, guaranteeing the layout never breaks.
+---
 
-Interactive Micro-animations: CSS transitions that create a smooth "lift and shadow" effect when users hover over product cards, mimicking a live production environment.
+## 🚀 Live Demo (Preview)
 
-🛠️ Technologies Used
+Open `index.html` in any modern browser (Chrome, Firefox, Safari, Edge).  
+No build tools, no dependencies – just static files.
 
-HTML5: For semantic structure and accessibility.
+---
 
-CSS3: Utilizing CSS Grid, Flexbox, custom properties, and transition animations.
-
-Vanilla JavaScript: Utilized inline strictly for robust image error handling and fallback routing.
-
-🏆 Outcome
-
-The successful deployment of a visually accurate, highly stable static prototype of the Flipkart homepage. The project proves the ability to translate complex design structures into clean code, solve practical asset-loading challenges, and deliver a polished, interactive user interface.
-
-
+## 📂 Project Structure
