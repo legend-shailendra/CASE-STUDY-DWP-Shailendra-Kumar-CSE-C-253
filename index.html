@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>X • Explore & Home</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <!-- LEFT SIDEBAR -->
+  <div class="left-sidebar">
+    <div>
+      <div class="x-logo">
+        <!-- Exact X logo (current 𝕏 logo as seen on x.com/explore) -->
+        <svg viewBox="0 0 24 24" aria-hidden="true"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+      </div>
+      <div class="nav-top">
+        <div class="nav-item" data-nav="home"><i class="fas fa-home"></i><span>Home</span></div>
+        <div class="nav-item" data-nav="explore"><i class="fas fa-hashtag"></i><span>Explore</span></div>
+        <div class="nav-item" data-nav="notifications"><i class="fas fa-bell"></i><span>Notifications</span></div>
+        <div class="nav-item" data-nav="messages"><i class="fas fa-envelope"></i><span>Messages</span></div>
+        <div class="nav-item" data-nav="grok"><i class="fas fa-gem"></i><span>Grok</span></div>
+        <div class="nav-item" data-nav="communities"><i class="fas fa-users"></i><span>Communities</span></div>
+        <div class="nav-item" data-nav="premium"><i class="fas fa-crown"></i><span>Premium</span></div>
+        <div class="nav-item" data-nav="profile"><i class="fas fa-user"></i><span>Profile</span></div>
+        <div class="nav-item" data-nav="bookmarks"><i class="fas fa-bookmark"></i><span>Bookmarks</span></div>
+        <div class="post-button-sidebar" id="sidebarPostBtn"><i class="fas fa-pen"></i><span> Post</span></div>
+      </div>
+    </div>
+    <div class="user-profile"><div class="user-avatar">🌟</div></div>
+  </div>
+
+  <!-- MAIN FEED -->
+  <div class="main-feed">
+    <div class="feed-header"><h2 id="feedTitle">Home</h2><button class="post-button-top" id="topPostBtn"><i class="fas fa-pen"></i> Post</button></div>
+    <div id="exploreControls" class="explore-controls">
+      <div class="tabs"><div class="tab active" data-tab="forYou">For You</div><div class="tab" data-tab="trending">Trending</div></div>
+      <div class="search-container"><div class="search-bar"><i class="fas fa-search"></i><input type="text" id="searchInput" placeholder="Search X"></div></div>
+    </div>
+    <div id="contentArea" class="content-container"></div>
+  </div>
+
+  <div class="right-sidebar" id="rightSidebar">
+    <div class="news-card"><div class="card-title">Today's News</div><div id="newsList"></div></div>
+    <div class="follow-card"><div class="card-title">Who to Follow</div><div id="followSuggestionsList"></div></div>
+  </div>
+</div>
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
